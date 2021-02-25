@@ -1,0 +1,76 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace SortingsProblemSets
+{
+    public class A
+    { }
+    /*
+ import heapq
+
+
+ class KthLargest(object):
+
+    def __init__(self, k, nums):
+        """
+        :type k: int
+        :type nums: List[int]
+        """
+        self.array = []
+        heapq.heapify(self.array)
+        self.maxSize = k
+        for element in nums:
+            if len(self.array) != self.maxSize:
+                heapq.heappush(self.array, element)
+            elif len(self.array) == self.maxSize:
+                heapq.heappushpop(self.array, element)
+
+        
+
+    def add(self, val):
+        """
+        :type val: int
+        :rtype: int
+        """
+        if len(self.array) != self.maxSize:
+            heapq.heappush(self.array, val)
+        elif len(self.array) == self.maxSize:
+            heapq.heappushpop(self.array, val)
+
+        return self.array[0]
+
+
+# Your KthLargest object will be instantiated and called as such:
+# obj = KthLargest(k, nums)
+# param_1 = obj.add(val)
+     */
+
+
+    /*
+     * 
+     import heapq
+
+
+class KthSmallestInStream(object):
+    def __init__(self, k, nums):
+        self.array = []
+        heapq.heapify(self.array)
+        self.maxSize = k
+        for element in nums:
+            if len(self.array) != self.maxSize:
+                heapq.heappush(self.array, -element)
+            elif len(self.array == self.maxSize):
+                heapq.heappushpop(self.array, -element)
+
+    def add(self, val):
+        if len(self.array != self.maxSize):
+            heapq.heappush(self.array, -val)
+        elif len(self.array) == self.maxSize:
+            heapq.heappushpop(self.array, -val)
+
+        return -self.array[0]
+
+     * 
+     */
+}

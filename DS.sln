@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sortings", "Sortings", "{2F6DD835-D404-4BC7-A664-4B11DFCA9400}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortingsAlgorithms", "Sortings\SortingsAlgo\SortingsAlgorithms.csproj", "{5AB4D7ED-9CE7-4C37-9E53-272576A0110A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortingsProblemSets", "Sortings\SortingsProblemSets\SortingsProblemSets.csproj", "{1D0616EE-7D67-4ADC-93D3-5BD9CC318472}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Recursion", "Recursion", "{0DB2C074-DEA7-490F-A704-C4C80A9C02A1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursionProblemSets", "Recursion\RecursionProblemSets\RecursionProblemSets.csproj", "{176F4097-9538-40DA-8FFD-3599F7EB3598}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecursionFoundation", "Recursion\RecursionFoundation\RecursionFoundation.csproj", "{A7CA7480-31D1-4DA3-ABE5-DFD8EB2D9ECF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DynamicPrograming", "DynamicPrograming", "{F66D5CA4-83EA-463D-9823-85C34D8191B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DPProblemSets", "DPProblemSets\DPProblemSets.csproj", "{6EF99FA7-3C81-4472-831B-0F17CD02AF61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tree", "Tree", "{1943BD82-0211-4CCF-A808-C2292B8657F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreeLive", "Tree\TreeLive\TreeLive.csproj", "{3DC017EC-9CD5-4B1A-B6A2-2068FE6BC9BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreeFoundation", "Tree\TreeFoundation\TreeFoundation.csproj", "{E42D4931-2DF1-4226-9F21-20A16D44B527}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinkedList", "LinkedList", "{503F2EF2-56BB-4597-957F-28478F3D016D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListFoundation", "LinkedList\LinkedListFoundation\LinkedListFoundation.csproj", "{7F475A72-D09F-44D3-A682-CC55A25ACEBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AB4D7ED-9CE7-4C37-9E53-272576A0110A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AB4D7ED-9CE7-4C37-9E53-272576A0110A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AB4D7ED-9CE7-4C37-9E53-272576A0110A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AB4D7ED-9CE7-4C37-9E53-272576A0110A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D0616EE-7D67-4ADC-93D3-5BD9CC318472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D0616EE-7D67-4ADC-93D3-5BD9CC318472}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D0616EE-7D67-4ADC-93D3-5BD9CC318472}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D0616EE-7D67-4ADC-93D3-5BD9CC318472}.Release|Any CPU.Build.0 = Release|Any CPU
+		{176F4097-9538-40DA-8FFD-3599F7EB3598}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{176F4097-9538-40DA-8FFD-3599F7EB3598}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{176F4097-9538-40DA-8FFD-3599F7EB3598}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{176F4097-9538-40DA-8FFD-3599F7EB3598}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7CA7480-31D1-4DA3-ABE5-DFD8EB2D9ECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7CA7480-31D1-4DA3-ABE5-DFD8EB2D9ECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7CA7480-31D1-4DA3-ABE5-DFD8EB2D9ECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7CA7480-31D1-4DA3-ABE5-DFD8EB2D9ECF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EF99FA7-3C81-4472-831B-0F17CD02AF61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EF99FA7-3C81-4472-831B-0F17CD02AF61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EF99FA7-3C81-4472-831B-0F17CD02AF61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EF99FA7-3C81-4472-831B-0F17CD02AF61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DC017EC-9CD5-4B1A-B6A2-2068FE6BC9BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DC017EC-9CD5-4B1A-B6A2-2068FE6BC9BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DC017EC-9CD5-4B1A-B6A2-2068FE6BC9BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DC017EC-9CD5-4B1A-B6A2-2068FE6BC9BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E42D4931-2DF1-4226-9F21-20A16D44B527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E42D4931-2DF1-4226-9F21-20A16D44B527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E42D4931-2DF1-4226-9F21-20A16D44B527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E42D4931-2DF1-4226-9F21-20A16D44B527}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F475A72-D09F-44D3-A682-CC55A25ACEBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F475A72-D09F-44D3-A682-CC55A25ACEBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F475A72-D09F-44D3-A682-CC55A25ACEBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F475A72-D09F-44D3-A682-CC55A25ACEBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5AB4D7ED-9CE7-4C37-9E53-272576A0110A} = {2F6DD835-D404-4BC7-A664-4B11DFCA9400}
+		{1D0616EE-7D67-4ADC-93D3-5BD9CC318472} = {2F6DD835-D404-4BC7-A664-4B11DFCA9400}
+		{176F4097-9538-40DA-8FFD-3599F7EB3598} = {0DB2C074-DEA7-490F-A704-C4C80A9C02A1}
+		{A7CA7480-31D1-4DA3-ABE5-DFD8EB2D9ECF} = {0DB2C074-DEA7-490F-A704-C4C80A9C02A1}
+		{6EF99FA7-3C81-4472-831B-0F17CD02AF61} = {F66D5CA4-83EA-463D-9823-85C34D8191B8}
+		{3DC017EC-9CD5-4B1A-B6A2-2068FE6BC9BB} = {1943BD82-0211-4CCF-A808-C2292B8657F4}
+		{E42D4931-2DF1-4226-9F21-20A16D44B527} = {1943BD82-0211-4CCF-A808-C2292B8657F4}
+		{7F475A72-D09F-44D3-A682-CC55A25ACEBE} = {503F2EF2-56BB-4597-957F-28478F3D016D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F9802D6-6827-4119-B625-0BAB715084C0}
+	EndGlobalSection
+EndGlobal
